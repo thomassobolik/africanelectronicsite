@@ -1,11 +1,22 @@
 site needs:
 
-a photo essay
-a video repo
-a link to the song
-a link to the artwork
-
 a main page:
 	- mission statement
 	- logos/branding
 
+studio:
+	- 2-4 beats/samples
+	- 2 full songs
+	- (soundcloud embeds)
+
+art space:
+	- photo gallery 
+
+classroom:
+	- video
+	- essays
+
+how to guide the user through the content
+	- scroll down through the pages?
+
+how to signal what kind of site they're looking at
