@@ -26,6 +26,6 @@ def music(request):
     return HttpResponse(template.render(context, request))
 
 def film(request):
-   template = loader.get_template('home.html')
+   template = loader.get_template('film.html')
    context = {}
    return HttpResponse(template.render(context, request))
