@@ -14,3 +14,18 @@ def home(request):
     template = loader.get_template('home.html')
     context = {}
     return HttpResponse(template.render(context, request))
+
+def art(request):
+    template = loader.get_template('art.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+def music(request):
+    template = loader.get_template('home.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+def film(request):
+   template = loader.get_template('home.html')
+   context = {}
+   return HttpResponse(template.render(context, request))

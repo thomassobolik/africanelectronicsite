@@ -24,12 +24,14 @@
 
 <div class="container-fluid">
 <div class="col-md-12">
-<div class="srow justify-content-center">
+<div class="row justify-content-center">
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   	<div class="carousel-inner">
    		<div class="carousel-item active">
    			{% load static %}
+   			<a href="{% url 'art' %}">
   			<img src="{% static "art_link.jpg" %}" alt="art link">
+  			</a>
   			<div class="carousel-caption d-none d-md-block">
           		<h5>ART</h5>
           		<p>Original artworks composed by students in collaboration with Blissie at the Blackpowerstation.</p>
@@ -37,7 +39,9 @@
    		</div>
    		<div class="carousel-item">
    			{% load static %}
+   			<a href="{% url 'music' %}">
    			<img src="{% static "music_link.jpg" %}" alt="music link" class="d-block w-100">
+   			</a>
    			<div class="carousel-caption d-none d-md-block">
           		<h5>MUSIC</h5>
           		<p>Original music composed by artists at U.Va and Makhanda using digital collaboration tools.</p>
@@ -45,7 +49,9 @@
    		</div>
    		<div class="carousel-item">
    			{% load static %}
+   			<a href="{% url 'film' %}">
   			<img src="{% static "film_link.jpg" %}" alt="film link" class="d-block w-100">
+  			</a>
   			<div class="carousel-caption d-none d-md-block">
           		<h5>FILM</h5>
           		<p>A brief film showing the class's creative process.</p>
