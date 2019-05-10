@@ -118,4 +118,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = ['/home/tomsobolik/tomsobolik.pythonanywhere.com/africanelectronicsite/static']
+STATIC_ROOT = ['/home/tomsobolik/tomsobolik.pythonanywhere.com/africanelectronicsite/static']
