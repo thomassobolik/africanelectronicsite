@@ -6,22 +6,25 @@
 </head>
 
 {% extends 'base.html' %} {% block content%}
-<div class="jumbotron"> 
-  <div class="container" style="align-items: center;">
-    <h1 class="display-2">U.Va x Makhanda</h1>
-    <p class="lead">A transatlantic multimedia collaboration. Sherman's project goals statement goes here. Eventually this jumbotron will be replaced with an object that integrates Molly's logo, too.</p>
-  </div>
+<div class="container">
+	<h1 align="center" class="display-4">U.Va x Makhanda</h1>
+	<div class="text-center">
+		{% load static %}
+  		<img src="{% static "logo2.png" %}" class="rounded" style="padding-bottom: 20px" alt="...">
+	</div>
+	<h2 align="center" class="lead">A transatlantic multimedia collaboration.</h2>
 </div>
 
-<iframe style="width:100%" height="703" src="https://www.youtube.com/embed/j0itX7raD8s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe style="width:100%; padding-top:50px;" height="703" src="https://www.youtube.com/embed/ynrJT-U1y0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
 <div class="jumbotron"> 
   <div class="container" style="align-items: center">
-    <p class="lead">Check out the rest of the content below :)</p>
+    <p class="lead">Music has an incredible power for bringing people together. For centuries, it has been a tool with which we discover and rediscover ourselves as well as those around us, whether close by or far away. Together through partnership with the International Library of African Music in South Africa, our class at the University of Virginia has spent the last semester collaborating across continents and oceans to forge connection, deepen understanding, and create together. In collaboration with artists Bliss, Biz, Elijah, and X and their team at ILAM, have produced this repository of visual art, music, and film. We look forward to continued collaboration and have relished this opportunity to deepen our mutual understanding of art and the power it can have in our lives. The purpose of this web page is to make publicly available the products of our class’s collaboration with the artists in Makhanda. However, the purpose of the collaboration itself goes far beyond the art. Over the past semester, we have learned and taught, spoken and listened, and engaged in mutual growth. We hope that this project inspires others by demonstrating what wonderful things we can create when we create together.</p>
   </div>
 </div>
 
+<!--
 <div class="container-fluid">
 <div class="col-md-12">
 <div class="row justify-content-center">
@@ -70,6 +73,7 @@
 </div>
 </div>
 </div>
+//-->
 
 {% endblock %}
 

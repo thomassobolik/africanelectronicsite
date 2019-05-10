@@ -14,7 +14,10 @@
 <body>
     <nav class="navbar bg-light navbar-light">
     <!-- Brand -->
-    <a class="navbar-brand" href="{% url 'home' %}">U.Va x Makhanda</a>
+    <a class="navbar-brand" href="{% url 'home' %}">
+        {% load static %}
+        <img src="{% static "logo.png" %}">
+    </a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -43,6 +46,26 @@
             </div>
         </div>
     </div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
 </body>
+
+ <!-- Footer -->
+<footer class="page-footer font-small pt-4">
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">This site was made by Noel Lobley's African Electronic Music seminar, Spring 2019.
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
 
 </html>
