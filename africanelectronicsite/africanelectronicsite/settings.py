@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '^(y$$4^gyydwj%x*+llprtxusg033ndpfrm(l5i$m8hn77n5k&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tomsobolik.pythonanywhere.com']
 
 # Application definition
 
@@ -53,7 +53,7 @@ ROOT_URLCONF = 'africanelectronicsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['/home/tomsobolik/tomsobolik.pythonanywhere.com/africanelectronicsite/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
